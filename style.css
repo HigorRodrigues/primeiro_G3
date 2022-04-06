@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to bottom,
+        white 50%, red );
+
+    background-repeat: no-repeat;
+    
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+
+    border-bottom: 2px solid red;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+}
