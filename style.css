@@ -14,4 +14,43 @@ header{
     margin-left: 100px;
     margin-right: 100px;
     padding: 15px;
+    box-shadow: 10px 10px 30px red;
+}
+
+header h1{
+    font-size: 70px;
+}
+
+section {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+    text-align: justify; /*Alinhamento do texto de forma justificada*/
+}
+
+section p{
+    font-size: 25px; /*tamanho da fonte do texto */
+    letter-spacing: 2px; /* espaço entre as letras */
+    word-spacing: 1px; /* espaço entre as palavras do texto*/
+    line-height: 30px; /* altura da linha */
+    text-indent: 50px; /* espaço a direita da primeira linha */
+}
+
+section img{
+    width: 400px;
+    float: left; /*deixar a imagem flutuando a direita
+                    os textos irão preencher o espaço em branco*/
+    margin-right: 20px;
+}
+
+section img:hover{
+    opacity: 0.5; /* diminuir a nitidez da imagem */
+    transition: 2s; /* tempo para aplicar totalmente alguma regra de estilização */
+}
+
+section h2{
+    font-size: 45px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
